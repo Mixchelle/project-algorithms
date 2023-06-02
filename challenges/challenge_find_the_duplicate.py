@@ -6,6 +6,7 @@ def find_duplicate(nums):
     for num in nums:
         if isinstance(num, str) or num < 0:
             return False
+
         if num in num_set:
             return num
         num_set.add(num)

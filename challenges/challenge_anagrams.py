@@ -32,6 +32,7 @@ def merge(left, right):
         if left[left_index] <= right[right_index]:
             merged.append(left[left_index])
             left_index += 1
+
         else:
             merged.append(right[right_index])
             right_index += 1
