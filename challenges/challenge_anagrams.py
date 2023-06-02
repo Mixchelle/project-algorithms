@@ -40,4 +40,3 @@ def merge(left, right):
     merged.extend(right[right_index:])
 
     return merged
-
